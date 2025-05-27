@@ -6,26 +6,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', function() {
-            // Create close button
-            if (!document.querySelector('.close-menu')) {
-                const closeButton = document.createElement('button');
-                closeButton.className = 'close-menu';
-                closeButton.innerHTML = '<i class="fas fa-times"></i>';
-                closeButton.setAttribute('aria-label', 'Close menu');
-                mainNav.appendChild(closeButton);
-                
-                closeButton.addEventListener('click', function() {
-                    closeMenu();
-                });
-            }
-            
-            // Toggle menu
+            // Toggle menu and button states
+            this.classList.toggle('active');
             mainNav.classList.toggle('active');
             body.classList.toggle('menu-open');
         });
     }
 
-    // Close menu when clicking outside
+    // Close menu when clicking outside or on a link
     document.addEventListener('click', function(e) {
         if (body.classList.contains('menu-open') && 
             !e.target.closest('.main-nav') && 
@@ -35,15 +23,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function closeMenu() {
+        mobileMenuToggle.classList.remove('active');
         mainNav.classList.remove('active');
         body.classList.remove('menu-open');
     }
 
-    // Close menu when a nav link is clicked (for single page navigation)
+    // Close menu when a nav link is clicked
     document.querySelectorAll('.main-nav a').forEach(link => {
         link.addEventListener('click', closeMenu);
     });
-});
+
+    
     // FAQ accordion functionality
     const faqQuestions = document.querySelectorAll('.faq-question');
     
