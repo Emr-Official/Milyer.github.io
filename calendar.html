@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Calendar - Milyer Nursery Day and Boarding Primary School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo.png" alt="School Logo" class="logo">
+            <div>
+                <h1>Milyer Nursery Day and Boarding Primary School</h1>
+                <p class="motto"><marquee behavior="" direction="">Invest in Education</marquee></p>
+            </div>
+        </div>
+        
+        <!-- Add this mobile menu button -->
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="fees.html">Fees</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>School Calendar</h1>
+            <p>Important dates and events for the academic year</p>
+        </div>
+    </section>
+
+    <section class="calendar-content">
+        <div class="container">
+            <div class="calendar-navigation">
+                <button id="prev-term"><i class="fas fa-chevron-left"></i> Previous Term</button>
+                <h2 id="current-term">Term 1 - 2025</h2>
+                <button id="next-term">Next Term <i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <div class="term-calendar active" id="term1">
+                <h3>Term 1 - 2025</h3>
+                <p class="term-dates">February 5 - May 3, 2025</p>
+                
+                <div class="calendar-events">
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">Feb</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Begins</h4>
+                            <p>All students report back to school</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Feb</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Opening Assembly</h4>
+                            <p>Official opening assembly for the term</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">Feb</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Parent-Teacher Meeting</h4>
+                            <p>First PTA meeting of the term</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">08</span>
+                            <span class="month">Mar</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>International Women's Day</h4>
+                            <p>Special assembly and activities</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">Mar</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Mid-Term Break</h4>
+                            <p>Students go home for mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">01</span>
+                            <span class="month">Apr</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>School Resumes</h4>
+                            <p>Students return from mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Apr</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Inter-Class Competitions</h4>
+                            <p>Academic and sports competitions between classes</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">29</span>
+                            <span class="month">Apr</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>End of Term Exams Begin</h4>
+                            <p>First term examinations</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">03</span>
+                            <span class="month">May</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Ends</h4>
+                            <p>Closing assembly and students go home</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="term-calendar" id="term2">
+                <h3>Term 2 - 2024</h3>
+                <p class="term-dates">May 27 - August 23, 2025</p>
+                
+                <div class="calendar-events">
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">27</span>
+                            <span class="month">May</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Begins</h4>
+                            <p>All students report back to school</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">03</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Martyr's Day</h4>
+                            <p>No classes - National holiday</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Parent-Teacher Meeting</h4>
+                            <p>Second term PTA meeting</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Mid-Term Break</h4>
+                            <p>Students go home for mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">01</span>
+                            <span class="month">Jul</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>School Resumes</h4>
+                            <p>Students return from mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Jul</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Sports Day</h4>
+                            <p>Annual inter-house sports competition</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>End of Term Exams Begin</h4>
+                            <p>Second term examinations</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">23</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Ends</h4>
+                            <p>Closing assembly and students go home</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="term-calendar" id="term3">
+                <h3>Term 3 - 2024</h3>
+                <p class="term-dates">September 16 - December 6, 2025</p>
+                
+                <div class="calendar-events">
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">16</span>
+                            <span class="month">Sep</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Begins</h4>
+                            <p>All students report back to school</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">Sep</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Parent-Teacher Meeting</h4>
+                            <p>Third term PTA meeting</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">09</span>
+                            <span class="month">Oct</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Independence Day</h4>
+                            <p>No classes - National holiday</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">Oct</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Mid-Term Break</h4>
+                            <p>Students go home for mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">28</span>
+                            <span class="month">Oct</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>School Resumes</h4>
+                            <p>Students return from mid-term break</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Nov</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Cultural Day</h4>
+                            <p>Celebration of Ugandan culture and traditions</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">Nov</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>PLE Begins</h4>
+                            <p>Primary Leaving Examinations start</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">02</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>End of Year Exams Begin</h4>
+                            <p>Final examinations for other classes</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">06</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Term Ends</h4>
+                            <p>Closing assembly and students go home</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-details">
+                            <h4>Prize Giving Day</h4>
+                            <p>Annual prize giving ceremony for outstanding students</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calendar-notes">
+                <h3>Important Notes</h3>
+                <ul>
+                    <li>All dates are subject to change. Please check back regularly for updates.</li>
+                    <li>Parents will be notified in advance of any changes to the calendar.</li>
+                    <li>School fees must be paid before the beginning of each term.</li>
+                    <li>Uniform requirements must be adhered to for all school events.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kakoge A, City West, Lira City West Division, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256773841851 / +256772646261</p>
+                    <p><i class="fas fa-envelope"></i> milyerndabps@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="fees.html">Fee Structure</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Location</h3>
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=2.2388124,32.8789885&z=15&output=embed" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Milyer Nursery Day and Boarding Primary School. All Rights Reserved.</p>
+                <p>Designed by <a href="https://olwaemmanuel777.wixstudio.com/olwa-emmanuel" target="_blank">Olwa Emmanuel</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

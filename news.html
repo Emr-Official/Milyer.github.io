@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Announcements - Milyer Nursery Day and Boarding Primary School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo.png" alt="School Logo" class="logo">
+            <div>
+                <h1>Milyer Nursery Day and Boarding Primary School</h1>
+                <p class="motto"><marquee behavior="" direction="">Invest in Education</marquee></p>
+            </div>
+        </div>
+        
+        <!-- Add this mobile menu button -->
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="fees.html">Fees</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>News & Announcements</h1>
+            <p>Stay updated with the latest from our school</p>
+        </div>
+    </section>
+
+    <section class="news-content">
+        <div class="container">
+            <div class="news-filter">
+                <button class="filter-btn active" data-filter="all">All News</button>
+                <button class="filter-btn" data-filter="announcements">Announcements</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+                <button class="filter-btn" data-filter="events">Upcoming Events</button>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-item announcements" id="news1">
+                    <div class="news-image">
+                        <img src="news1.jpg" alt="Academic Excellence Award">
+                    </div>
+                    <div class="news-details">
+                        <span class="news-category">Announcement</span>
+                        <span class="news-date">June 15, 2024</span>
+                        <h2>School Wins Academic Excellence Award</h2>
+                        <p>Milyer Primary School has been recognized for outstanding performance in the 2023 PLE examinations. The award was presented by the District Education Officer during a ceremony held at Lira District Headquarters...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-item announcements" id="news2">
+                    <div class="news-image">
+                        <img src="news2.jpg" alt="PTA Meeting">
+                    </div>
+                    <div class="news-details">
+                        <span class="news-category">Announcement</span>
+                        <span class="news-date">June 5, 2024</span>
+                        <h2>Parents-Teacher Meeting Scheduled</h2>
+                        <p>The next PTA meeting will be held on June 20th at the school main hall. All parents are encouraged to attend as important matters concerning the second term will be discussed. Agenda includes...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-item achievements">
+                    <div class="news-image">
+                        <img src="news3.jpg" alt="Sports Competition">
+                    </div>
+                    <div class="news-details">
+                        <span class="news-category">Achievement</span>
+                        <span class="news-date">May 28, 2024</span>
+                        <h2>School Wins Regional Sports Competition</h2>
+                        <p>Our school's athletics team emerged winners in the just concluded Lira Regional Primary Schools Sports Competition. The team won gold medals in track events and football, qualifying for the national championships...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-item events">
+                    <div class="news-image">
+                        <img src="news4.jpg" alt="Cultural Day">
+                    </div>
+                    <div class="news-details">
+                        <span class="news-category">Upcoming Event</span>
+                        <span class="news-date">May 20, 2024</span>
+                        <h2>Annual Cultural Day Preparations</h2>
+                        <p>The school will be hosting its annual Cultural Day on July 15th. Students are encouraged to prepare traditional performances, dress, and food from their ethnic backgrounds. This year's theme is "Celebrating Uganda's Diversity"...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-item announcements">
+                    <div class="news-image">
+                        <img src="news6.jpg" alt="New Facilities">
+                    </div>
+                    <div class="news-details">
+                        <span class="news-category">Announcement</span>
+                        <span class="news-date">May 10, 2024</span>
+                        <h2>New Classroom Block Commissioned</h2>
+                        <p>The school has completed construction of a new 8-classroom block to accommodate the growing student population. The facility was officially opened by the Lira City Mayor and will be in use starting next term...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-btn disabled"><i class="fas fa-chevron-left"></i> Previous</a>
+                <a href="#" class="page-btn active">1</a>
+                <a href="#" class="page-btn">2</a>
+                <a href="#" class="page-btn">3</a>
+                <a href="#" class="page-btn">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive the latest news and announcements directly to your email</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kakoge A, City West, Lira City West Division, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256773841851 / +256772646261</p>
+                    <p><i class="fas fa-envelope"></i> milyerndabps@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="fees.html">Fee Structure</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Location</h3>
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=2.2388124,32.8789885&z=15&output=embed" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Milyer Nursery Day and Boarding Primary School. All Rights Reserved.</p>
+                <p>Designed by <a href="https://olwaemmanuel777.wixstudio.com/olwa-emmanuel" target="_blank">Olwa Emmanuel</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
